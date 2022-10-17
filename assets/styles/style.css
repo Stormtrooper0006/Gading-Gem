@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  display: inline;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: #ff6501;
+}
+
+#gading_gem_nav_logo {
+  width: 100px;
+}
+
+nav ul {
+  margin-top: 10px;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  font-weight: bolder;
+}
+
+.drop_button {
+  display: none;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  background-color: #ff6501;
+  margin: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.drop_button:hover {
+  font-weight: bold;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown_content {
+  display: none;
+  position: absolute;
+  background-color: #ff6501;
+  margin-top: 17px;
+  min-width: 225px;
+  box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown_content a {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  display: block;
+}
+
+.dropdown_content a:hover {
+  background-color: white;
+  color: #ff6501;
+}
+
+.show {
+  display: block;
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+}
+
+.card {
+  box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+h1,
+h2,
+h3 {
+  color: #ff6501;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+.featured-image {
+  width: 100%;
+  max-height: 800px;
+  object-fit: cover;
+  object-position: center;
+}
+
+article p {
+  font-size: 18px;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  width: 200px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  text-align: left;
+}
+
+td {
+  padding-left: 5px;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  padding: 20px 20px 2px 20px;
+  color: white;
+  background-color: #ff6501;
+  font-weight: bold;
+}
+
+#gading_gem_footer_logo {
+  width: 100px;
+  border-radius: 20px;
+}
+
+.socialMedia_container {
+  display: flex;
+  position: absolute;
+  right: 0;
+  bottom: 17%;
+}
+
+.socialMedia {
+  width: 50px;
+  margin-right: 25px;
+}
+
+@media screen and (max-width: 957px) {
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .drop_button {
+    display: block;
+  }
+}
