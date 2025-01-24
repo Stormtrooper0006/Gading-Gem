@@ -1,1 +1,1 @@
-![Uploading screencapture-file-C-Users-akira-Documents-CV-Resume-Porto-Portofolio-Project-Gading-Gem-Website-home-html-2022-10-17-19_55_42.png…]()
+![screencapture-file-C-Users-akira-Documents-CV-Resume-Porto-Portofolio-Project-Gading-Gem-Website-home-html-2022-10-17-19_55_42](https://github.com/user-attachments/assets/42cf4f26-2326-4a58-a35b-7bef6e22a82e)
